@@ -4,3 +4,19 @@
 .lead {
     text-align: center;
 }
+
+#jumbo{
+    background:black;
+}
+
+#textStuff{
+    text-align: center;
+     color:aqua;
+}
+
+#beginButton{
+    background: red;
+    float: none;
+        margin: 0 auto;
+
+}
