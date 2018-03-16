@@ -1,4 +1,8 @@
-
+// set it so when start button it pressed , button disappears and html is overwritten to turn into the trivia quiz.
+// use radio buttons so that they won't be able to select multiple answers
+//have certain values set to false so that program tallies up the number of true for the correct answers subtract the true answers from 
+//the total number of answers to get the number of missed answers
+//i
 
 beginButton.onclick= function(){
      document.getElementById("theBoi").innerHTML= 
