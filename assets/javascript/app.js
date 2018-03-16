@@ -1,31 +1,25 @@
 
 
-theBoi.onclick= function(){
-    setTimeout()  {
+beginButton.onclick= function(){
+     document.getElementById("theBoi").innerHTML= 
+    "<div class="btn-group btn-group-toggle" data-toggle="buttons">
+    <label class="btn btn-secondary active">
+      <input type="radio" name="options" id="option1" autocomplete="off" checked> Active
+    </label>
+    <label class="btn btn-secondary">
+      <input type="radio" name="options" id="option2" autocomplete="off"> Radio
+    </label>
+    <label class="btn btn-secondary">
+      <input type="radio" name="options" id="option3" autocomplete="off"> Radio
+    </label>
+    </div>" ;
     
-}, 3000); 
+    
+    
+    setTimeout()  {
+       
+    
+}, 300); 
 
 
-
-
-
-}
-
-
-
-
-
-
-
-
-<div class="btn-group btn-group-toggle" data-toggle="buttons">
-<label class="btn btn-secondary active">
-  <input type="radio" name="options" id="option1" autocomplete="off" checked> Active
-</label>
-<label class="btn btn-secondary">
-  <input type="radio" name="options" id="option2" autocomplete="off"> Radio
-</label>
-<label class="btn btn-secondary">
-  <input type="radio" name="options" id="option3" autocomplete="off"> Radio
-</label>
-</div>
+    }
